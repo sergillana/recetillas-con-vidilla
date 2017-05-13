@@ -1,15 +1,55 @@
 html {
     background-color: rgba(66,66,66,1.0);
+    font-family: 'Raleway', sans-serif;
 }
-/*header {
-    position: fixed;
-    top: 0px;
-    float: left;
+body {
+    margin: 0;
+}
+header {
+    background-color: rgba(188,188,188,1.0);
+    text-align: center;
+}
+header h1 {
+    /*width: 55rem;*/
+    margin: 0 auto;
+    font-size: 5rem;
+    font-family: 'Cabin Sketch', cursive;
+    font-weight: normal;
+    text-transform: uppercase;
+    text-align: center;
+    display: inline-block;
+}
+header p {
+    /*width: 20rem;*/
+    margin: 0;
+    font-family: 'Special Elite', cursive;
+    font-size: 1rem;
+    display: inline-block;
+}
+nav {
+    background-color: rgba(188,188,188,1.0);
+}
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    width: 73rem;
+    margin: 0 auto;
+    list-style-type: none;
+    padding: 0;
+}
+/*nav ul li {
+    display: inline-block;
+    width: 19.7%;
 }*/
-article {
+main article {
     margin: auto;
-    width: 210mm;
-    height: 297mm;
+    width: 73rem;
+    height: calc(73rem * 1.4142);
     background-color: rgba(233,233,233,1.0);
+    border-radius: 0.1rem;
     box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+main article section h2 {
+    font-size: 3rem;
+    font-family: 'Amatic SC', cursive;
 }
