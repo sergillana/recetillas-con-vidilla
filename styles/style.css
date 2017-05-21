@@ -7,8 +7,15 @@ body {
     margin: 0;
 }
 header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 10rem;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
     background-color: rgba(190,242,2,1.0);
-    box-shadow: 0 0.875rem 1.75rem rgba(0,0,0,0.25), 0 0.625rem 0.625rem rgba(0,0,0,0.22);
 }
 header>h1 {
     width: 73rem;
@@ -19,13 +26,12 @@ header>h1>span {
     white-space: pre;
     font-size: 6.7rem;
     font-family: 'Cabin Sketch', cursive;
-    font-weight: normal;
     text-transform: uppercase;
     color: rgba(18,26,44,1.0);
 }
 header>p {
-    text-align: right;
     width: 73rem;
+    text-align: right;
     margin: -2rem auto 0 auto;
     font-family: 'Cabin Sketch', cursive;
     font-size: 2.2rem;
@@ -43,6 +49,9 @@ nav>ul {
     margin: 0 auto;
     list-style-type: none;
     padding: 0;
+}
+main {
+    margin-top: 12rem;
 }
 main>article {
     margin: 2rem auto;
