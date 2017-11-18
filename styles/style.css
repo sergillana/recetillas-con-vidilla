@@ -1,7 +1,8 @@
 html {
     /*color: rgba(66,66,66,1.0);*/
     background-color: rgba(18,26,44,1.0);
-    font-family: 'Raleway', sans-serif;
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
 }
 body {
     margin: 0;
@@ -64,5 +65,5 @@ main>article {
 }
 main>article>section>h2 {
     font-size: 3rem;
-    font-family: 'Amatic SC', cursive;
+    font-family: 'Londrina Sketch', cursive;
 }
